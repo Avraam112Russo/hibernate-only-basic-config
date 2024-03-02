@@ -1,0 +1,96 @@
+2024-03-02 12:11:31 INFO  HibernateRunner:25 - User entity is in transient state: UserEntity(userName=Dasha@user, firstName=Dasha, lastName=Dasha, birthDay=org.example.entity.Birthday@42d80b78, department=Department(departmentName=HR), role=ADMIN)
+2024-03-02 12:11:31 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2024-03-02 12:11:32 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-03-02 12:11:32 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-03-02 12:11:32 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:11:32 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-02 12:11:32 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2024-03-02 12:11:32 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-03-02 12:11:32 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-03-02 12:11:32 WARN  JavaTypeDescriptorRegistry:144 - HHH000481: Encountered Java type [class org.example.entity.Birthday] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-03-02 12:11:33 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7c781c42] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-03-02 12:11:33 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-02 12:11:33 INFO  HibernateRunner:29 - Transaction is created: org.hibernate.engine.transaction.internal.TransactionImpl@3b95a6db
+2024-03-02 12:11:33 INFO  HibernateRunner:31 - User: UserEntity(userName=Dasha@user, firstName=Dasha, lastName=Dasha, birthDay=org.example.entity.Birthday@42d80b78, department=Department(departmentName=HR), role=ADMIN) was successfully saved. Session org.hibernate.engine.transaction.internal.TransactionImpl@3b95a6db
+2024-03-02 12:11:33 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:12:26 INFO  HibernateRunner:25 - User entity is in transient state: UserEntity(userName=Olya@user, firstName=Olya, lastName=Olya, birthDay=org.example.entity.Birthday@42d80b78, department=Department(departmentName=HR), role=ADMIN)
+2024-03-02 12:12:26 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2024-03-02 12:12:26 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-03-02 12:12:27 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-03-02 12:12:27 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:12:27 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-02 12:12:27 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2024-03-02 12:12:27 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-03-02 12:12:27 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-03-02 12:12:27 WARN  JavaTypeDescriptorRegistry:144 - HHH000481: Encountered Java type [class org.example.entity.Birthday] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-03-02 12:12:27 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1a500561] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-03-02 12:12:27 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-02 12:12:27 INFO  HibernateRunner:29 - Transaction is created: org.hibernate.engine.transaction.internal.TransactionImpl@adcfad9
+2024-03-02 12:12:27 INFO  HibernateRunner:31 - User: UserEntity(userName=Olya@user, firstName=Olya, lastName=Olya, birthDay=org.example.entity.Birthday@42d80b78, department=Department(departmentName=HR), role=ADMIN) was successfully saved. Session org.hibernate.engine.transaction.internal.TransactionImpl@adcfad9
+2024-03-02 12:12:27 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:17:41 INFO  HibernateRunner:25 - User entity is in transient state: UserEntity(userName=Olya1@user, firstName=Olya, lastName=Olya, birthDay=org.example.entity.Birthday@5e3a8624, department=Department(departmentName=HR), role=ADMIN)
+2024-03-02 12:17:41 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2024-03-02 12:17:42 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-03-02 12:17:42 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-03-02 12:17:42 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:17:42 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-02 12:17:42 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2024-03-02 12:17:42 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-03-02 12:17:42 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-03-02 12:17:42 WARN  JavaTypeDescriptorRegistry:144 - HHH000481: Encountered Java type [class org.example.entity.Birthday] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-03-02 12:17:42 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@210d2a6c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-03-02 12:17:42 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-02 12:17:42 INFO  HibernateRunner:29 - Transaction is created: org.hibernate.engine.transaction.internal.TransactionImpl@7da34b26
+2024-03-02 12:17:42 INFO  HibernateRunner:31 - User: UserEntity(userName=Olya1@user, firstName=Olya, lastName=Olya, birthDay=org.example.entity.Birthday@5e3a8624, department=Department(departmentName=HR), role=ADMIN) was successfully saved. Session org.hibernate.engine.transaction.internal.TransactionImpl@7da34b26
+2024-03-02 12:17:43 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:19:21 INFO  HibernateRunner:29 - User entity is in transient state: UserEntity(userName=Olya12@user, firstName=Olya, lastName=Olya, birthDay=org.example.entity.Birthday@5e3a8624, department=Department(departmentName=HR), role=ADMIN)
+2024-03-02 12:19:21 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2024-03-02 12:19:22 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-03-02 12:19:22 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-03-02 12:19:22 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:19:22 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-02 12:19:22 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2024-03-02 12:19:22 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-03-02 12:19:22 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-03-02 12:19:22 WARN  JavaTypeDescriptorRegistry:144 - HHH000481: Encountered Java type [class org.example.entity.Birthday] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-03-02 12:19:22 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@157ec23b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-03-02 12:19:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-02 12:19:22 INFO  HibernateRunner:33 - Transaction is created: org.hibernate.engine.transaction.internal.TransactionImpl@3bb5ceb
+2024-03-02 12:19:22 INFO  HibernateRunner:35 - User: UserEntity(userName=Olya12@user, firstName=Olya, lastName=Olya, birthDay=org.example.entity.Birthday@5e3a8624, department=Department(departmentName=HR), role=ADMIN) was successfully saved. Session org.hibernate.engine.transaction.internal.TransactionImpl@3bb5ceb
+2024-03-02 12:19:22 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:28:45 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2024-03-02 12:28:45 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-03-02 12:28:45 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-03-02 12:28:45 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:28:45 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-02 12:28:45 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2024-03-02 12:28:45 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-03-02 12:28:45 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-03-02 12:28:46 WARN  JavaTypeDescriptorRegistry:144 - HHH000481: Encountered Java type [class org.example.entity.Birthday] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-03-02 12:28:46 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6749fe50] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-03-02 12:28:46 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-02 12:28:46 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:30:43 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2024-03-02 12:30:43 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-03-02 12:30:43 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-03-02 12:30:43 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:30:43 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-02 12:30:43 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2024-03-02 12:30:43 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-03-02 12:30:44 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-03-02 12:30:44 WARN  JavaTypeDescriptorRegistry:144 - HHH000481: Encountered Java type [class org.example.entity.Birthday] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-03-02 12:30:44 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@361abd01] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-03-02 12:30:44 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-02 12:30:44 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:39:09 INFO  Version:44 - HHH000412: Hibernate Core {5.4.11.Final}
+2024-03-02 12:39:09 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-03-02 12:39:09 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2024-03-02 12:39:09 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2024-03-02 12:39:09 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2024-03-02 12:39:09 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2024-03-02 12:39:09 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2024-03-02 12:39:10 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-03-02 12:39:10 WARN  JavaTypeDescriptorRegistry:144 - HHH000481: Encountered Java type [class org.example.entity.Birthday] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-03-02 12:39:10 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5562c2c9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2024-03-02 12:39:10 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-02 12:39:10 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/postgres]
